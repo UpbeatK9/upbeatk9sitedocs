@@ -14,7 +14,7 @@ pages:
 #- Advanced:
 #    - Working with Divi: advanced/divi.md
 #    - Working with Events: advanced/events.md
-- Style Guide:
+# - Style Guide:
 #    - Color Scheme: style-guide/color-scheme.md
 #    - Typefaces: style-guide/typefaces.md
 theme: material
