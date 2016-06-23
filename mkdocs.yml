@@ -15,8 +15,8 @@ pages:
 #    - Working with Divi: advanced/divi.md
 #    - Working with Events: advanced/events.md
 - Style Guide:
-    - Color Scheme: style-guide/color-scheme.md
-    - Typefaces: style-guide/typefaces.md
+#    - Color Scheme: style-guide/color-scheme.md
+#    - Typefaces: style-guide/typefaces.md
 theme: material
 markdown_extensions:
     - toc:
