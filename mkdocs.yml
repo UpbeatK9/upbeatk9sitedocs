@@ -1,1 +1,44 @@
-site_name: My Docs
+site_name: Upbeat K9 Site help
+copyright: 2016 &copy; Brian J King unless otherwise noted.
+site_description: Upbeat K9 Site Help
+site_author: Brian J King
+repo_url: https://github.com/UpbeatK9/upbeatk9sitedocs
+site_url: http://help.hudsonvalleydockdogs.com
+pages:
+- Home: index.md
+#- WordPress Basics:
+#    - Getting Started: wordpress-basics/basics.md
+#    - Working with Posts: wordpress-basics/posts.md
+#    - Working with Pages: wordpress-basics/pages.md
+#    - Working with Forms: wordpress-basics/forms.md
+#- Advanced:
+#    - Working with Divi: advanced/divi.md
+#    - Working with Events: advanced/events.md
+- Style Guide:
+    - Color Scheme: style-guide/color-scheme.md
+    - Typefaces: style-guide/typefaces.md
+theme: material
+markdown_extensions:
+    - toc:
+        permalink: '#'
+    - admonition
+    - pymdownx.tilde
+    - markdown.extensions.smarty
+    - pymdownx.smartsymbols
+
+# Options
+extra:
+  version: '1.0'
+  logo: 'img/logo.png'
+  palette:
+    primary: 'light blue'
+    accent: 'pink'
+  font:
+    text: 'Roboto'
+    code: 'Roboto Mono'
+  i18n:
+    prev: 'Previous'
+    next: 'Next'
+ # author:
+  #  github: 'brianjking'
+   # twitter: 'brianjking'
